@@ -1,0 +1,28 @@
+{
+	"name": "conrmahr",
+	"url": "https://conr.dev/",
+	"feed": {
+		"subtitle": "The personal and professional website of designer & developer, Conor.",
+		"filename": "feed.xml",
+		"path": "/feed/feed.xml",
+		"id": "https://conr.dev/"
+	},
+	"jsonfeed": {
+		"path": "/feed/feed.json",
+		"url": "https://conr.dev/feed/feed.json"
+	},
+	"author": {
+		"name": "kailoon",
+		"email": "mail@hireconor.com",
+		"url": "https://conr.dev/",
+		"avatar": "https://res.cloudinary.com/conrmahr/image/upload/c_scale,dpr_auto,q_auto,w_64/v1641307995/conormeagher.com/headshot.png",
+		"mailtolink": "mailto:mail@hireconor.com?subject=Opportunties",
+		"cvlink": "https://conr.co/resume"
+	},
+	"socials": {
+		"polywork": "https://polywork.com/conr",
+		"twitter": "https://twitter.com/conrmahr",
+		"linkedin": "https://linkedin.com/in/conrmahr",
+		"github": "https://github.com/conrmahr"
+	}
+}

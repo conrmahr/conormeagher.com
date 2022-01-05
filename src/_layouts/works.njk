@@ -1,0 +1,20 @@
+---
+layout: base.njk
+pagination:
+  data: collections.works
+  size: 10
+  reverse: true
+  filter:
+    - works
+    - posts
+eleventyExcludeFromCollections: true
+---
+{%- block singleTop-%}
+  {%- include '../_components/_singletop.njk' -%}
+{%- endblock singleTop-%}
+
+<section id="works" class="mb-20">
+  {% block workslist %}
+    {% include '../_components/_workslist.njk' %}
+  {% endblock workslist %}
+</section>
