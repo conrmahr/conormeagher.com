@@ -1,9 +1,9 @@
 ---
 layout: single.njk
 metaTitle: About Conor
-metaDescription: Know more about me.
+metaDescription: It's pronounced Con-r Mah-r.
 title: It's pronounced Con-r Mah-r, thanks for asking!
-description: I'm a Lead Software Developer focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship. .
+description: I'm a Lead Software Developer focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship.
 featuredImg:
 templateEngineOverride: njk,md
 eleventyNavigation:

@@ -1,12 +1,11 @@
 ---
 layout: posts.njk
-metaTitle: Writings
-metaDescription: Thoughts & things happened in my life.
-title: Writings
-description: Thoughts & things happened in my life.
+metaTitle: Blog
+metaDescription: Tech posts to educate, elevate, but mostly entertain.
+title: Blog
+description: Tech posts to educate, elevate, but mostly entertain.
 templateEngineOverride: njk,md
 eleventyNavigation:
-  key: writings.
+  key: blog.
   order: 3
-eleventyExcludeFromCollections: true
 ---
