@@ -13,6 +13,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/site.webmanifest')
 	eleventyConfig.addPassthroughCopy('./src/admin/config.yml')
 	eleventyConfig.addPassthroughCopy('./src/img')
+	eleventyConfig.addPassthroughCopy('./src/_redirects')
 
 	eleventyConfig.addPlugin(pluginNavigation)
 	eleventyConfig.addPlugin(pluginRss)

@@ -16,3 +16,5 @@ api-docs/
 _site/
 
 .DS_Store
+# Local Netlify folder
+.netlify
