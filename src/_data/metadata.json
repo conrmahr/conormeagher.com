@@ -1,8 +1,9 @@
 {
-	"name": "conormeagher.com",
+	"title": "conormeagher.com",
 	"url": "https://conormeagher.com/",
+	"langauge": "en",
 	"feed": {
-		"subtitle": "conormeagher.com",
+		"subtitle": "Tech posts to educate, elevate, but mostly entertain.",
 		"filename": "feed.xml",
 		"path": "/feed/feed.xml",
 		"id": "https://conormeagher.com/"
