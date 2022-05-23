@@ -6,7 +6,7 @@ description: null
 testimonial: null
 clientName: null
 clientPos: null
-projectUrl: https://github.com/conrmahr/nhl-discord-bot
+projectUrl: https://bot.hockey
 dribbble: null
 featuredImg: ndb-featured
 bgColor: E8E8E8

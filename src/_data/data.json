@@ -47,7 +47,6 @@
 	"footerCreditLine1": "©2011-2022 Conor Meagher.",
 	"footerCreditLine2": "This site was designed in ",
 	"builtTools": {
-		"figma": "https://www.figma.com/",
 		"11ty": "https://www.11ty.dev/",
 		"tailwindcss": "https://tailwindcss.com/",
 		"deployed via Netlify": "https://www.netlify.com/"

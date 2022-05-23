@@ -2,10 +2,12 @@ const { DateTime } = require('luxon')
 const fs = require('fs')
 const pluginNavigation = require('@11ty/eleventy-navigation')
 const markdownIt = require('markdown-it')
-const markdownitlinkatt = require('markdown-it-link-attributes')
+const mila = require('markdown-it-link-attributes')
+const markdownItAnchor = require('markdown-it-anchor')
+const markdownItFootnote = require('markdown-it-footnote')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
-const markdownItAnchor = require('markdown-it-anchor')
+const embedEverything = require("eleventy-plugin-embed-everything")
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/css/styles.css')
@@ -18,7 +20,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation)
 	eleventyConfig.addPlugin(pluginRss)
 	eleventyConfig.addPlugin(pluginSyntaxHighlight)
-
+	eleventyConfig.addPlugin(embedEverything, {
+		add: ['twitter', 'soundcloud', 'youtube']
+	  });
 	eleventyConfig.setDataDeepMerge(true)
 
 	eleventyConfig.addShortcode('respimg', (path, alt, style) => {
@@ -68,10 +72,12 @@ module.exports = function (eleventyConfig) {
 	/* Markdown Overrides */
 	let markdownLibrary = markdownIt({
 		html: true,
-		breaks: true
+		breaks: true,
+		linkify: true
+
 	})
-		.use(markdownitlinkatt, {
-			pattern: /^(?!(https:\/\/conr\.dev|#)).*$/gm,
+		.use(mila, {
+			pattern: /^(?!(https:\/\/conormeagher\.com|#)).*$/gm,
 			attrs: {
 				target: '_blank',
 				rel: 'noreferrer'
@@ -86,6 +92,13 @@ module.exports = function (eleventyConfig) {
 				title: 'Anchor link for easy sharing.'
 			})
 		})
+		.use(markdownItFootnote)
+
+		markdownLibrary.renderer.rules.footnote_block_open = () => (
+			'<section class="col-start-3 col-end-9">\n' +
+			'<ol class="footnotes-list">\n'
+		  );
+		  
 	eleventyConfig.setLibrary('md', markdownLibrary)
 
 	eleventyConfig.addFilter('readableDate', (dateObj) => {

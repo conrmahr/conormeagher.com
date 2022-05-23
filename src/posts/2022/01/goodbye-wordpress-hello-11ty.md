@@ -13,7 +13,8 @@ published: true
 ---
 
 <div class="col-start-3 col-end-9">
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">this is <a href="https://twitter.com/hashtag/jamstack?src=hash&amp;ref_src=twsrc%5Etfw">#jamstack</a>. <a href="https://t.co/oQAEHx2ubX">https://t.co/oQAEHx2ubX</a> <a href="https://twitter.com/hashtag/11ty?src=hash&amp;ref_src=twsrc%5Etfw">#11ty</a> <a href="https://twitter.com/hashtag/tailwindcss?src=hash&amp;ref_src=twsrc%5Etfw">#tailwindcss</a> <a href="https://twitter.com/hashtag/netlify?src=hash&amp;ref_src=twsrc%5Etfw">#netlify</a> ht <a href="https://twitter.com/ximenavf92?ref_src=twsrc%5Etfw">@ximenavf92</a></p>&mdash; conor meagher 💉💉💉 (@conrmahr) <a href="https://twitter.com/conrmahr/status/1479151678637187079?ref_src=twsrc%5Etfw">January 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+https://twitter.com/conrmahr/status/1479151678637187079
 
 ### Past 
 I have been using WordPress (WP) since 2010. Back then there wasn't a lot of open-source software (OSS) choices for hosting your own website with a blog. The thought of having a live website 24/7 that could be edited with a web browser and access to internet was what intrigued me.
