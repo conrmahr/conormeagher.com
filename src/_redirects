@@ -1,3 +1,23 @@
 # Redirects from what the browser requests to what we serve
 /feed              /feed/feed.xml
 /:year/:month/:slug  /posts/:year/:month/:slug
+/resume             https://docs.google.com/document/d/10Zw8jiF47sd0jWCDH6Hv7qVhGw4TSe8d3oVOtFXOpSM/view?usp=sharing
+/polywork           https://work.conormeagher.com
+/twitter            https://twitter.com/conrmahr
+/linkedin           https://linkedin.com/in/conrmahr
+/github             https://github.com/conrmahr
+/t2u7r              /posts/2021/05/code-music-shostakovich-symphony-no-7/
+/tsg10              /posts/2019/06/cut-the-google-fiber-network-box-please/
+/6t8xs              /posts/2018/06/cut-the-cord-please-again/
+/a3nfk              /posts/2018/01/cut-the-cord-please/
+/ov064              /posts/2016/06/code-music-hurry-up-were-dreaming/
+/z576h              /posts/2016/06/code-music-is-my-coffee/
+/za8tk              /posts/2016/06/ethernet-priority-over-wifi/
+/gmbkx              /posts/2016/06/donut-not-doughnut-slack/
+/i2ztc              /posts/2016/05/testing-webmention/
+/ga5jy              /posts/2016/05/blog-like-no-ones-reading/
+/c37x9              /posts/2011/07/currently-employed/
+/blxcf              /posts/2011/03/star-communication/
+/cgp4j              /posts/2011/02/star-creativity/
+/uqem3              /posts/2011/02/s-t-a-r-problem-solving/
+/od92k              /posts/2011/01/star-responses/
