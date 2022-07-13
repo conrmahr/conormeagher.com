@@ -6,7 +6,8 @@
 		"subtitle": "Tech posts to educate, elevate, but mostly entertain.",
 		"filename": "feed.xml",
 		"path": "/feed/feed.xml",
-		"id": "https://conormeagher.com/"
+		"url": "https://conormeagher.com/feed/feed.xml",
+		"id": "https://conormeagher.com"
 	},
 	"jsonfeed": {
 		"path": "/feed/feed.json",
