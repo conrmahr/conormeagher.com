@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: true
 		<email>{{ metadata.author.email }}</email>
 	</author>
     <copyright>{{ metadata.author.name }}</copyright>
-    <pubDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</pubDate>
+    <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
 	{%- for post in collections.posts | reverse %}
 	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
     <item>
@@ -25,7 +25,8 @@ eleventyExcludeFromCollections: true
       <guid isPermaLink="true">{{ absolutePostUrl }}</guid>
       <atom:link href="{{ absolutePostUrl }}" rel="standout"></atom:link>
       <description>{{ post.data.description }}</description>
-      <pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
+	  <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+      <updated>{{ post.date | dateToRfc3339 }}</updated>
     </item>
 	{%- endfor %}
   </channel>
