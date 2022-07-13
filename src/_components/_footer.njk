@@ -36,7 +36,7 @@
 
     <!-- sticky footer for mobile -->
     <div id="sticky-footer"
-      class="md:hidden text-base w-full px-5 flex justify-between items-center fixed bottom-0 bg-black md:relative dark:bg-purple-900">
+      class="md:hidden text-base w-full px-5 flex justify-between items-center fixed bottom-0 bg-black md:relative">
       {% set navPages = collections.all | eleventyNavigation %}
         {%- for entry in navPages %}
           <a
@@ -46,14 +46,14 @@
           "
           >{{ entry.title }}</a>
       {%- endfor %}
-        <a
-          href="{{ metadata.author.mailtolink }}"
-          title="get in touch"
-          target="_blank"
-          rel="noreferrer"
-          class="text-gray-300 py-4 dark:text-purple-300"
-        >Contact
-        </a>
+      <a
+      href="{{ metadata.author.cvlink }}"
+      title="resume"
+      target="_blank"
+      rel="noreferrer"
+      class="text-gray-300 py-4 dark:text-purple-300"
+    >resume.
+    </a>
     </div>
   </div>
 </footer>
