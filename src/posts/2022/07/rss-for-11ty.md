@@ -85,7 +85,15 @@ eleventyExcludeFromCollections: true
 	{%- endfor %}
 </feed>
 ```
-That's it. You now have a RSS feed on your 11ty website when you serve or build the project.
+
+**Important:** This code assumes you save your date frontmatter in UTC format.
+```md
+---
+date: 2022-01-01T00:00:00Z 
+---
+```
+
+That's it. You now have a Atom v1.0 feed on your 11ty website when you serve or build the project.
 
 Check out mine and subscribe!
 https://conormeagher.com/feed/
