@@ -7,7 +7,7 @@ description: Examples of Commmication Skills Q&As.
 featuredImg:
 subHeading: Examples of Commmication Skills Q&As.
 tags: ['Communication', 'Interview', 'Star', 'Tips']
-date: 2011-03-29
+date: 2011-03-29T23:00Z
 updated:
 published: true
 ---

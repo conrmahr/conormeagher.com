@@ -7,7 +7,7 @@ description: This is a test.
 featuredImg: webmention-rocks
 subHeading: This is a test.
 tags: ['Web Mention']
-date: 2016-05-22
+date: 2016-05-22T23:00Z
 updated:
 published: true
 ---

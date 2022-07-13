@@ -7,7 +7,7 @@ description: How to add an RSS Feed in a 11ty site
 featuredImg: rss-11ty
 subHeading: How to add an RSS Feed in a 11ty site.
 tags: ['RSS', '11ty', 'Web Development']
-date: 2022-07-12
+date: 2022-07-12T19:00Z
 updated:
 published: true
 ---

@@ -7,7 +7,7 @@ description: Cut the Cord with YouTube TV
 featuredImg: youtube-tv
 subHeading: Cut the Cord with YouTube TV
 tags: [ "Advice", "Google Fiber", "Internet", "TV", "YouTube TV"]
-date: 2018-06-22
+date: 2018-06-22T23:00Z
 updated:
 published: true
 ---

@@ -7,7 +7,7 @@ description: How do you spell Donut?
 featuredImg: lamars-donuts
 subHeading: How do you spell Donut?
 tags: [ "Funny", "Slack", "UX"]
-date: 2016-06-03
+date: 2016-06-03T23:00Z
 updated:
 published: true
 ---
