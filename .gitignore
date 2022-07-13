@@ -14,7 +14,7 @@ api-docs/
 
 # Ignore eleventy output when doing manuell tests
 _site/
-
+.cache/
 .DS_Store
 # Local Netlify folder
 .netlify
