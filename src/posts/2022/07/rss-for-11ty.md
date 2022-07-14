@@ -9,7 +9,7 @@ subHeading: How to add an RSS Feed in a 11ty site.
 tags: ['RSS', '11ty', 'Web Development']
 date: 2022-07-14T23:30:00Z
 updated:
-published: false
+published: true
 ---
 
 <div class="col-start-3 col-end-9">
