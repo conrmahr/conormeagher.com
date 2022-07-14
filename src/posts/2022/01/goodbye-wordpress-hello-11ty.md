@@ -7,7 +7,7 @@ description: Moved from WordPress to a Static Site Generator (SSG), 11ty.
 featuredImg: 11ty-logo
 subHeading: I have been using WordPress since 2010, but it's so massive I could never get away from it, until now.
 tags: ['SSG', 'WordPress', '11ty', 'Web Development']
-date: 2022-01-06T23:00Z
+date: 2022-01-06T23:00:00Z
 updated:
 published: true
 ---

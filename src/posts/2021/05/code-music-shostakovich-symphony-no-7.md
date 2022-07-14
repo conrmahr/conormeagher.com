@@ -7,7 +7,7 @@ description: "Greatest composer of the 20th century?"
 featuredImg: dsch
 subHeading: Greatest composer of the 20th century? Well to my ears Dmitri Dmitriyevich Shostakovich is.
 tags: ['Code Music', 'Programming']
-date: 2021-05-14T23:00Z
+date: 2021-05-14T23:00:00Z
 updated:
 published: true
 ---

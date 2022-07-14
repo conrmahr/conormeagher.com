@@ -7,7 +7,7 @@ description: One of my favorite math rock bands on Minecraft?
 featuredImg: american-football-lp1
 subHeading: One of my favorite math rock bands on Minecraft?
 tags: ['Code Music', 'Programming']
-date: 2020-04-12T23:00Z
+date: 2020-04-12T23:00:00Z
 updated:
 published: true
 ---

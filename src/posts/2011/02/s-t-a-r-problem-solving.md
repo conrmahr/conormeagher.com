@@ -7,7 +7,7 @@ description: Examples of Problem Solving Q&As.
 featuredImg:
 subHeading: Examples of Problem Solving Q&As.
 tags: ['Problem Solving', 'Interview', 'Star', 'Tips']
-date: 2011-02-23T23:00Z
+date: 2011-02-23T23:00:00Z
 updated:
 published: true
 ---

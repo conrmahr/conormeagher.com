@@ -7,7 +7,7 @@ description: "For those still looking, DON'T GIVE UP! The hard work will pay off
 featuredImg: 
 subHeading: "For those still looking, DON'T GIVE UP! The hard work will pay off."
 tags: ['Job Search', 'Employed']
-date: 2011-07-15T23:00Z
+date: 2011-07-15T23:00:00Z
 updated:
 published: true
 ---

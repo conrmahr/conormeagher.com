@@ -7,7 +7,7 @@ description: Ethernet Priority Over Wi-Fi
 featuredImg: office-laptop
 subHeading: Make sure you are getting the fastest speeds at work
 tags: [ "Ethernet", "Internet", "Productivity"]
-date: 2016-06-15T23:00Z
+date: 2016-06-15T23:00:00Z
 updated:
 published: true
 ---

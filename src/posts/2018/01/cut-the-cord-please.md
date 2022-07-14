@@ -7,7 +7,7 @@ description: Cut the Cord with Sling TV
 featuredImg: sling-tv
 subHeading: Cut the Cord with YouTube SlingTV
 tags: [ "Advice", "Google Fiber", "Internet", "TV", "Sling TV"]
-date: 2018-01-14T23:00Z
+date: 2018-01-14T23:00:00Z
 updated:
 published: true
 ---

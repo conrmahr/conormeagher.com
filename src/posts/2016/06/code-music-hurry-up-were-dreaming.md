@@ -7,7 +7,7 @@ description: This double-album has kept me going for hundreds, maybe thousands o
 featuredImg: m83-codemusic
 subHeading: This double-album has kept me going for hundreds, maybe thousands of hours of programming.
 tags: ['Code Music', 'Programming']
-date: 2016-06-29T23:00Z
+date: 2016-06-29T23:00:00Z
 updated:
 published: true
 ---

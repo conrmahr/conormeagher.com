@@ -7,7 +7,7 @@ description: Now you can bypass the Network Box and plug directly into your own 
 featuredImg: wan-network
 subHeading: Now you can bypass the Network Box and plug directly into your own hardware
 tags: [ "Advice", "Google Fiber", "Internet", "Networking", "TV"]
-date: 2019-06-08T23:00Z
+date: 2019-06-08T23:00:00Z
 updated:
 published: true
 ---

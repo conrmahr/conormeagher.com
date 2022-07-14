@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
   "version": "https://jsonfeed.org/version/1",
   "title": "{{ metadata.title }}",
   "home_page_url": "{{ metadata.url }}",
-  "feed_url": "{{ metadata.feed.id + metadata.jsonfeed.path }}""}}",
+  "feed_url": "{{ metadata.jsonfeed.url }}""}}",
   "description": "{{ metadata.description }}",
   "author": {
     "name": "{{ metadata.author.name }}",
@@ -21,7 +21,7 @@ eleventyExcludeFromCollections: true
       "url": "{{ absolutePostUrl }}",
       "title": "{{ post.data.title }}",
       "content_html": {% if post.templateContent %}{{ post.templateContent | dump | safe }}{% else %}""{% endif %},
-      "date_published": "{{ post.date | rssDate }}"
+      "date_published": "{{ post.date | dateToRfc3339 }}"
     }
     {%- if not loop.last -%}
     ,

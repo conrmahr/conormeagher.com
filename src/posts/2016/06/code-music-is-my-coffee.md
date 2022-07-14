@@ -7,7 +7,7 @@ description: Every website I've built has an album that helped me build it
 featuredImg: headphones-codemusic
 subHeading: Every website I've built has an album that helped me build it
 tags: [ "Code Music", "Programming"]
-date: 2016-06-24T23:00Z
+date: 2016-06-24T23:00:00Z
 updated:
 published: true
 ---

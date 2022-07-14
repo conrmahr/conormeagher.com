@@ -7,7 +7,7 @@ description: Examples of Creativity Q&As.
 featuredImg:
 subHeading: Examples of Creativity Q&As.
 tags: ['Creativity', 'Interview', 'Star', 'Tips']
-date: 2011-02-24T23:00Z
+date: 2011-02-24T23:00:00Z
 updated:
 published: true
 ---

@@ -7,7 +7,7 @@ description: "Sage advice from the Web Legend, Jeffrey Zeldman"
 featuredImg: zeldman-bw
 subHeading: "Sage advice from the Web Legend, Jeffrey Zeldman"
 tags: ['Advice', 'Writing']
-date: 2016-05-06T23:00Z
+date: 2016-05-06T23:00:00Z
 updated:
 published: true
 ---

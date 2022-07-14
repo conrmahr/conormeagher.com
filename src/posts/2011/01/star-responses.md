@@ -7,7 +7,7 @@ description: Practice these Q&As for an interview.
 featuredImg:
 subHeading: Practice these Q&As for an interview.
 tags: ['Interview', 'Star', 'Tips']
-date: 2011-01-15T23:00Z
+date: 2011-01-15T23:00:00Z
 updated:
 published: true
 ---

@@ -7,9 +7,9 @@ description: How to add an RSS Feed in a 11ty site
 featuredImg: rss-11ty
 subHeading: How to add an RSS Feed in a 11ty site.
 tags: ['RSS', '11ty', 'Web Development']
-date: 2022-07-12T23:00Z
+date: 2022-07-14T15:00:00Z
 updated:
-published: true
+published: false
 ---
 
 <div class="col-start-3 col-end-9">
@@ -38,12 +38,13 @@ module.exports = function(eleventyConfig) {
 In the `_data/metadata.json` file, add the unique metadata for the feed.
 ```json
 {
-  "feed": {
-    "subtitle": "I am writing about my experiences as a circus clown.",
-    "filename": "feed.xml",
-    "path": "/feed.xml",
-    "id": "https://example.com/"
-  }
+	"feed": {
+		"subtitle": "Tech posts to educate, elevate, but mostly entertain.",
+		"filename": "feed.xml",
+		"path": "/feed/feed.xml",
+		"url": "https://conormeagher.com/feed/feed.xml",
+		"id": "https://conormeagher.com/"
+	},
 },
 ```
 ### Create a RSS feed
@@ -62,31 +63,30 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>{{ metadata.title }}</title>
-	<subtitle>{{ metadata.feed.subtitle }}</subtitle>
-	{% set absoluteUrl %}{{ metadata.feed.path | url | absoluteUrl(metadata.url) }}{% endset %}
-	<link href="{{ absoluteUrl }}" rel="self"/>
-	<link href="{{ metadata.url }}"/>
-	<updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
-	<id>{{ metadata.feed.id }}</id>
-	<author>
-		<name>{{ metadata.author.name }}</name>
-		<email>{{ metadata.author.email }}</email>
-	</author>
-	{%- for post in collections.posts | reverse %}
-	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
-	<entry>
-		<title>{{ post.data.title }}</title>
-		<link href="{{ absolutePostUrl }}"/>
-		<updated>{{ post.date | rssDate }}</updated>
-		<id>{{ absolutePostUrl }}</id>
-		<content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
-	</entry>
-	{%- endfor %}
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.feed.subtitle }}</subtitle>
+  <link href="{{ metadata.feed.url }}" rel="self"/>
+  <link href="{{ metadata.url }}"/>
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ metadata.url }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for post in collections.posts | reverse %}
+  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}"/>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+  </entry>
+  {%- endfor %}
 </feed>
 ```
 
-**Important:** This code assumes you save your date frontmatter in UTC format.
+**Important:** This code assumes you save your date frontmatter in UTC format, not your local timezone.
 ```md
 ---
 date: 2022-01-01T00:00:00Z 
