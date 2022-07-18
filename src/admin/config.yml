@@ -23,7 +23,7 @@ collections:
     folder: 'src/posts'
     create: true
     slug: '{{year}}/{{month}}/{{slug}}'
-    preview_paath: 'posts/{{year}}/{{month}}/{{slug}}'
+    preview_path: 'posts/{{year}}/{{month}}/{{slug}}'
     fields:
       - { label: 'Layout', name: 'single', widget: 'hidden' }
       - { label: 'Meta Title', name: 'metaTitle', widget: 'string' }
