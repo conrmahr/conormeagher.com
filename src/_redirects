@@ -1,6 +1,6 @@
 # Redirects from what the browser requests to what we serve
-https://conr.co/*           https://conormeagher.com/:splat
-https://hireconor.com/*     https://conormeagher.com/:splat
+https://conr.co/*           https://conormeagher.com/:splat 301!
+https://hireconor.com/*     https://conormeagher.com/:splat 301!
 /feed                       /feed/feed.xml
 /:year/:month/:slug         /posts/:year/:month/:slug
 /polywork                   https://work.conormeagher.com
