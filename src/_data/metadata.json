@@ -4,6 +4,7 @@
 	"langauge": "en",
 	"feed": {
 		"subtitle": "Tech posts to educate, elevate, but mostly entertain.",
+		"language": "en",
 		"filename": "feed.xml",
 		"path": "/feed/feed.xml",
 		"url": "https://conormeagher.com/feed/feed.xml",
