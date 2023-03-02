@@ -16,7 +16,7 @@ published: true
 
 https://twitter.com/bencodezen/status/1458484105331585028
 
-Being a Obsidian Power-User, I always wanted to update my notes from any of my devices from the beginning but didn't have a great use case to host my notes with the paid version of [Obsidian Sync](https://obsidian.md/sync). iCloud Drive would be the best option and it's free! These steps are not the only way to sync with iCloud but I found this order easiest way to setup. 
+Being a Obsidian Power-User, I always wanted to update my notes from any of my devices from the beginning but didn't have a great use case to host my notes with the paid version of [Obsidian Sync](https://obsidian.md/sync). iCloud Drive would be the best option and it's free! These steps are not the only way to sync with iCloud but I found this order to be easiest.
 
 ### Requirements
 - [Obsidian for macOS](https://obsidian.md/download)
