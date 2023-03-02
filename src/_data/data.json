@@ -13,7 +13,7 @@
 				"Performance",
 				"Web APIs",
 				"Web Components",
-				"Progessive Web App"
+				"Progressive Web App"
 			]
 		},
 		{
@@ -34,7 +34,7 @@
 			"tags": [
 				"Daily Scrums",
 				"One-on-One Meetings",
-				"Peer Programing",
+				"Peer Programming",
 				"Code Reviews",
 				"Mentor",
 				"Listen"
@@ -44,7 +44,7 @@
 	"featuredWorkTitle": "Featured Works",
 	"featuredWorkDescription": "I'm a Lead Software Developer focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship. I love anything with HTML, CSS, JavaScript, or BBQ Sauce in it. Here's a couple tasty treats I made.",
 	"browseFullPortfolio": "Browse full portfolio",
-	"footerCreditLine1": "©2011-2022 Conor Meagher.",
+	"footerCreditLine1": "©2011-2023 Conor Meagher.",
 	"footerCreditLine2": "This site was designed in ",
 	"builtTools": {
 		"11ty": "https://www.11ty.dev/",
