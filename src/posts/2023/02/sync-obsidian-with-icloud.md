@@ -5,7 +5,7 @@ metaDescription: Use your existing iCloud space to sync your Obsidian vault acro
 title: Sync Obsidian with iCloud 
 description: Use your existing iCloud space to sync your Obsidian vault across multiple devices.
 featuredImg: obsidian-logo
-subHeading: Use your existing iCloud space to sync your Obsidian vault across multiple devices.
+subHeading: Use iCloud to sync your Obsidian vault across multiple devices.
 tags: ['Obsidian', 'iCloud', 'Backup', 'Productivity']
 date: 2023-02-28T17:00:00Z
 updated:
@@ -16,7 +16,7 @@ published: true
 
 https://twitter.com/bencodezen/status/1458484105331585028
 
-Being a Obsidian Power-User, I always wanted to update my notes from any of my devices from the beginning but didn't have a great use case to host my notes with the paid version of [Obsidian Sync](https://obsidian.md/sync). iCloud Drive would be the best option and it's free! These steps are not the only way to sync with iCloud but I found this order to be easiest.
+Being an [Obsidian.md](https://obsidian.md) Power-User, I always wanted to update my notes from any of my devices and sync them but I didn't have a great use case to host my notes with the paid version of [Obsidian Sync](https://obsidian.md/sync). iCloud Drive would be the best option for this, plus it's free! These steps are not the only way to sync with iCloud Drive but I found this order to be easiest.
 
 ### Requirements
 - [Obsidian for macOS](https://obsidian.md/download)
@@ -39,9 +39,9 @@ Being a Obsidian Power-User, I always wanted to update my notes from any of my d
 
 1. Browse to iCloud Drive > Obsidian > `vault name` and click "Open".
 
-1. Create a new note for testing with File > New Note
+1. Create a new note for testing with File > New Note.
 
-{% figure 'macos-hello-world', 'macOS Obisidan - Hello World', 'macOS Obisidan - Hello World' %}
+{% figure 'macos-hello-world', 'macOS Obsidian - Hello World', 'macOS Obsidian - Hello World' %}
 
 1. Return to your Obsidian app on iOS and see if your file synced.
 
@@ -49,11 +49,11 @@ Being a Obsidian Power-User, I always wanted to update my notes from any of my d
 
 **Success!**
 
-**Existing Obsidian Users: Copy all your previous vault files and directory structure to this iCloud folder*
+**Existing Obsidian Users: Copy all your previous vault files and directory structure to iCloud Drive Obsidian folder*
 
-*Note: You can also download [iCloud Drive for Windows](https://support.apple.com/en-us/HT204283) and keep your Obsidian vault insync on a Windows device.
+*Note: You can also download [iCloud Drive for Windows](https://support.apple.com/en-us/HT204283) and keep your Obsidian vault in sync on a Windows device.
 
-I've got one vault synced across, macOS, iOS, iPadOS, and Windows 11 devices.
+Personally, I have gotten one vault synced across all of these devices, macOS, iOS, iPadOS, and Windows!
 
 [^1]: ["Set up iCloud Drive"](https://support.apple.com/en-us/HT204025). Retrieved November 3, 2022.
 
