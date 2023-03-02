@@ -50,10 +50,10 @@ In the `_data/metadata.json` file, add the unique metadata for the feed.
 ### Create a RSS feed
 From your top-level of your 11ty project folder, create this template file.
 ```bash
-touch src/feed.xml
+touch src/feed.njk
 ```
 
-Atom has several advantages over RSS: less restrictive licensing, IANA-registered MIME type, XML namespace, URI support, RELAX NG support. [^1] Knowing this, we will copy and paste the Atom format to produce our feed template. Other formats are available such as RSS and JSON. [^2]
+Atom has several advantages over RSS: less restrictive licensing, IANA-registered MIME type, XML namespace, URI support, RELAX NG support. [^1] Knowing this, we will copy and paste the Atom format to produce our `feed.njk` template. Other formats are available such as RSS and JSON. [^2]
 
 ```xml
 ---
