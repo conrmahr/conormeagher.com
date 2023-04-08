@@ -9,6 +9,9 @@ const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const embedEverything = require("eleventy-plugin-embed-everything")
 
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help")
+
+
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/css/styles.css')
 	eleventyConfig.addPassthroughCopy('./src/browserconfig.xml')
