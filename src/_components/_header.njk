@@ -10,24 +10,30 @@
         {% set navPages = collections.all | eleventyNavigation %}
         <ul class="text-right">
           {%- for entry in navPages %}
-          <li class="inline-block mr-5">
-            <a
-            href="{{ entry.url | url }}"
-            class="font-bold transition-colors dark:hover:text-yellow-200 hover:text-black
-            {% if entry.url == page.url %} dark:text-yellow-200 text-black {% else %}dark:text-white text-gray-700 {% endif %}"
-            >{{ entry.title }}</a>
-          </li>
+            {% if (loop.index <= 2) %}
+            <li class="inline-block mr-5">
+              <a
+              href="{{ entry.url | url }}"
+              class="font-bold transition-colors dark:hover:text-yellow-200 hover:text-black
+              {% if entry.url == page.url %} dark:text-yellow-200 text-black {% else %}dark:text-white text-gray-700 {% endif %}"
+              >{{ entry.title }}</a>
+            </li>
+          {%- endif %}
         {%- endfor %}
+        {%- for entry in navPages %}
+          {% if (loop.last) %}
           <li class="inline-block">
             <a
-              href="{{ metadata.author.cvlink }}"
-              title="get in touch"
-              target="_blank"
-              rel="noreferrer"
-              class="text-gray-800 dark:text-yellow-300 py-2 px-5 rounded-full font-bold border-2 border-gray-900 dark:border-yellow-100 border-opacity-20 transition-colors hover:border-opacity-100"
-            ><span>resume.</span>
+            href="{{ entry.url | url }}"
+            title="get in touch"
+            target="_blank"
+            rel="noreferrer"
+            class="text-gray-800 dark:text-yellow-300 py-2 px-5 rounded-full font-bold border-2 border-gray-900 dark:border-yellow-100 border-opacity-20 transition-colors hover:border-opacity-100"
+            ><span>{{ entry.title }}</span>
             </a>
           </li>
+          {%- endif %}
+        {%- endfor %}
         </ul>
 
       </nav>

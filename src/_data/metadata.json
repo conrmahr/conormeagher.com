@@ -19,8 +19,7 @@
 		"email": "mail@hireconor.com",
 		"url": "https://conr.dev/",
 		"avatar": "https://res.cloudinary.com/conrmahr/image/upload/c_scale,dpr_auto,q_auto,w_64/v1641307995/conr.dev/headshot.png",
-		"mailtolink": "mailto:mail@hireconor.com?subject=Opportunities",
-		"cvlink": "https://conr.dev/resume"
+		"mailtolink": "mailto:mail@hireconor.com?subject=Opportunities"
 	},
 	"socials": {
 		"polywork": "https://polywork.com/conr",
