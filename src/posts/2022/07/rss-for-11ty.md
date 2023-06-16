@@ -42,8 +42,8 @@ In the `_data/metadata.json` file, add the unique metadata for the feed.
 		"subtitle": "Tech posts to educate, elevate, but mostly entertain.",
 		"filename": "feed.xml",
 		"path": "/feed/feed.xml",
-		"url": "https://conormeagher.com/feed/feed.xml",
-		"id": "https://conormeagher.com/"
+		"url": "https://conr.dev/feed/feed.xml",
+		"id": "https://conr.dev/"
 	},
 },
 ```
@@ -96,7 +96,7 @@ date: 2022-01-01T00:00:00Z
 That's it. You now have a Atom v1.0 feed on your 11ty website when you serve or build the project.
 
 Check out mine and subscribe!
-https://conormeagher.com/feed/
+https://conr.dev/feed/
 
 [^1]: ["RSS compared with Atom"](https://en.wikipedia.org/wiki/RSS#RSS_compared_with_Atom). Retrieved June 14, 2022
 [^2]: ["Sample Feed Templates"](https://www.11ty.dev/docs/plugins/rss/#sample-feed-templates). Retrieved July 12, 2022

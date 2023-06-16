@@ -1,5 +1,5 @@
 {
-	"name": "conormeagher.com",
+	"name": "conr.dev",
 	"short_name": "conor",
 	"icons": [
 		{
@@ -16,5 +16,5 @@
 	"theme_color": "#ffffff",
 	"background_color": "#ffffff",
 	"display": "standalone",
-	"start_url": "https://conormeagher.com"
+	"start_url": "https://conr.dev"
 }

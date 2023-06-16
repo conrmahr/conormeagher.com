@@ -4,8 +4,8 @@ backend:
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
-site_url: https://conormeagher.com
-display_url: https://conormeagher.com
+site_url: https://conor.dev
+display_url: https://conr.dev
 logo_url: https://res.cloudinary.com/conrmahr/image/upload/v1641307995/conormeagher.com/headshot.png
 show_preview_links: true
 

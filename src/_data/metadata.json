@@ -1,26 +1,26 @@
 {
-	"title": "conormeagher.com",
-	"url": "https://conormeagher.com/",
+	"title": "conr.dev",
+	"url": "https://conr.dev/",
 	"langauge": "en",
 	"feed": {
 		"subtitle": "Tech posts to educate, elevate, but mostly entertain.",
 		"language": "en",
 		"filename": "feed.xml",
 		"path": "/feed/feed.xml",
-		"url": "https://conormeagher.com/feed/feed.xml",
-		"id": "https://conormeagher.com/"
+		"url": "https://conr.dev/feed/feed.xml",
+		"id": "https://conr.dev/"
 	},
 	"jsonfeed": {
 		"path": "/feed/feed.json",
-		"url": "https://conormeagher.com/feed/feed.json"
+		"url": "https://conr.dev/feed/feed.json"
 	},
 	"author": {
 		"name": "Conor Meagher",
 		"email": "mail@hireconor.com",
-		"url": "https://conormeagher.com/",
+		"url": "https://conr.dev/",
 		"avatar": "https://res.cloudinary.com/conrmahr/image/upload/c_scale,dpr_auto,q_auto,w_64/v1641307995/conormeagher.com/headshot.png",
 		"mailtolink": "mailto:mail@hireconor.com?subject=Opportunities",
-		"cvlink": "https://conr.co/resume"
+		"cvlink": "https://conr.dev/resume"
 	},
 	"socials": {
 		"polywork": "https://polywork.com/conr",
