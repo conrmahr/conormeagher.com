@@ -1,4 +1,4 @@
-## conormeagher.com
+## conr.dev
 
 Cloned from https://github.com/kailoon/kailoon.com, @kailoon is the 🐐.
 

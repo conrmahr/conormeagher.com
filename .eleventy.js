@@ -30,10 +30,10 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addShortcode('respimg', (path, alt, style) => {
 		const fetchBase = `https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/image/upload/`
-		const src = `${fetchBase}q_auto,f_auto,w_400/conormeagher.com/${path}.${eleventyConfig.format}`
+		const src = `${fetchBase}q_auto,f_auto,w_400/conr.dev/${path}.${eleventyConfig.format}`
 		const srcset = eleventyConfig.srcsetWidths
 			.map(({ w, v }) => {
-				return `${fetchBase}dpr_auto,q_auto,w_${w}/conormeagher.com/${path}.${eleventyConfig.format} ${v}w`
+				return `${fetchBase}dpr_auto,q_auto,w_${w}/conr.dev/${path}.${eleventyConfig.format} ${v}w`
 			})
 			.join(', ')
 
@@ -46,10 +46,10 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addShortcode('figure', (path, alt, caption) => {
 		const fetchBase = `https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/image/upload/`
-		const src = `${fetchBase}q_auto,f_auto,w_400/conormeagher.com/${path}.${eleventyConfig.format}`
+		const src = `${fetchBase}q_auto,f_auto,w_400/conr.dev/${path}.${eleventyConfig.format}`
 		const srcset = eleventyConfig.srcsetWidths
 			.map(({ w, v }) => {
-				return `${fetchBase}dpr_auto,q_auto,w_${w}/conormeagher.com/${path}.${eleventyConfig.format} ${v}w`
+				return `${fetchBase}dpr_auto,q_auto,w_${w}/conr.dev/${path}.${eleventyConfig.format} ${v}w`
 			})
 			.join(', ')
 

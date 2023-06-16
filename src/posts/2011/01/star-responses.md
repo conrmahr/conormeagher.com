@@ -26,7 +26,7 @@ If the STAR technique is new to you, then read more from [The MIT Career Office 
 
 ### Let's take it one step further for the digitally inclined.
 
-Make a flow chart using Excel. Here, use mine to get you started. [Click to download](https://res.cloudinary.com/conrmahr/raw/upload/v1653344525/conormeagher.com/hireconor-star.xlsx).
+Make a flow chart using Excel. Here, use mine to get you started. [Click to download](https://res.cloudinary.com/conrmahr/raw/upload/v1653344525/conr.dev/hireconor-star.xlsx).
 
 {% figure 'xlsx-star', 'STAR Responses Excel Spreadsheet', 'STAR Responses Excel Spreadsheet' %}
 

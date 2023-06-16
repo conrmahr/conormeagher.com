@@ -6,7 +6,7 @@ backend:
 publish_mode: editorial_workflow
 site_url: https://conor.dev
 display_url: https://conr.dev
-logo_url: https://res.cloudinary.com/conrmahr/image/upload/v1641307995/conormeagher.com/headshot.png
+logo_url: https://res.cloudinary.com/conrmahr/image/upload/v1641307995/conr.dev/headshot.png
 show_preview_links: true
 
 # media
