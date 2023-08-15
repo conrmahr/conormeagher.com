@@ -29,6 +29,6 @@ After two years I completed the program with a Masters in Urban Studies but fell
 
 Currently working remotely from the Central Time (CT) zone with my wonderful wife, sweet daughter, and stubborn Boston Terrier. 🐕‍🦺
 
-Drop me a line on [LinkedIn](https://linkedin.com/in/conrmahr 'visit site') or **mail@hireconor.com**, if you would like to have a conversation about about a possible match. 🎯
+Drop me a line on [LinkedIn](https://linkedin.com/in/conrmahr 'visit site') or **mail@hireconor.com**, if you would like to have a conversation about a possible match. 🎯
 
 </div>

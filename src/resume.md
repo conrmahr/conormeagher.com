@@ -23,6 +23,6 @@ eleventyNavigation:
 
 ### Contact
 
-Drop me a line on [LinkedIn](https://linkedin.com/in/conrmahr 'visit site') or **mail@hireconor.com**, if you would like to have a conversation about about a possible match. 🎯
+Drop me a line on [LinkedIn](https://linkedin.com/in/conrmahr 'visit site') or **mail@hireconor.com**, if you would like to have a conversation about a possible match. 🎯
 
 </div>
