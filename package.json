@@ -21,7 +21,7 @@
     "@11ty/eleventy-navigation": "^0.3.2",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.16",
     "markdown-it-anchor": "^8.6.7",
     "markdown-it-link-attributes": "^4.0.0",
     "nunjucks": "^3.2.3",
