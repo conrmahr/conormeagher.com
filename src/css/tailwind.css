@@ -54,6 +54,14 @@ h6 {
 	@apply text-purple-800 dark:text-purple-200;
 }
 
+.post blockquote {
+	@apply border-l-4 pl-4 sm:pl-6;
+}
+
+.post blockquote p {
+	@apply italic sm:text-lg dark:text-white;
+}
+
 /* prism */
 /*
 Name: Duotone Dark
