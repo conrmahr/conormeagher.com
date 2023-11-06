@@ -3,7 +3,7 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = {
 	mode: 'jit',
-	purge: [
+	content: [
 		'./src/**/*.njk',
 		'./src/**/*.md',
 		'./src/**/*.js',
@@ -13,7 +13,7 @@ module.exports = {
 	darkMode: 'media', // or 'media' or 'class'
 	theme: {
 		colors: {
-			gray: colors.blueGray,
+			gray: colors.slate,
 			purple: colors.purple,
 			orange: colors.orange,
 			rose: colors.rose,
