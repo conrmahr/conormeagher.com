@@ -22,9 +22,8 @@
 		"mailtolink": "mailto:mail@hireconor.com?subject=Opportunities"
 	},
 	"socials": {
-		"polywork": "https://polywork.com/conr",
-		"twitter": "https://twitter.com/conrmahr",
 		"linkedin": "https://linkedin.com/in/conrmahr",
-		"github": "https://github.com/conrmahr"
+		"github": "https://github.com/conrmahr",
+		"twitter": "https://twitter.com/conrmahr"
 	}
 }

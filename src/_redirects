@@ -4,7 +4,6 @@ https://hireconor.com/*     https://conr.dev/:splat 301!
 https://conormeagher.com/*  https://conr.dev/:splat 301!
 /feed                       /feed/feed.xml
 /:year/:month/:slug         /posts/:year/:month/:slug
-/polywork                   https://poly.work/conr
 /twitter                    https://twitter.com/conrmahr
 /linkedin                   https://linkedin.com/in/conrmahr
 /github                     https://github.com/conrmahr
