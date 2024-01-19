@@ -30,7 +30,7 @@ This new Discord-RSS bot also brings the addition of cleaner user mentions in po
 {% figure 'discord-rss-webhook', 'Webhook Post Screenshot', 'Webhook Post Screenshot' %}
 
 ### Enhanced Logging
-The runner outputs more robust logs that gives better observability on the bot. This better helps to troubleshoot malconfigured, timed-out, invalid, RSS feeds with fun emojis. 🎉
+The runner outputs more robust logs that gives better observability on the bot. This better helps to troubleshoot misconfigured, timed-out, invalid, RSS feeds with fun emojis. 🎉
 
 {% figure 'discord-rss-runner', 'Runner Logging via CLI', 'Runner Logging via CLI' %}
 
