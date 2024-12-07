@@ -4,7 +4,7 @@ https://hireconor.com/*     https://conr.dev/:splat 301!
 https://conormeagher.com/*  https://conr.dev/:splat 301!
 /feed                       /feed/feed.xml
 /:year/:month/:slug         /posts/:year/:month/:slug
-/twitter                    https://twitter.com/conrmahr
+/bluesky                    https://bsky.app/profile/conr.dev
 /linkedin                   https://linkedin.com/in/conrmahr
 /github                     https://github.com/conrmahr
 /t2u7r                      /posts/2021/05/code-music-shostakovich-symphony-no-7/
