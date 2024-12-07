@@ -2,18 +2,18 @@
 	"experience": [
 		{
 			"name": "Experience",
-			"description": "10+ YOE Software Developer with skills involving fullstack/frontend development, continuous integration, and mentorship."
+			"description": "14+ YOE in Software Development with skills involving fullstack/frontend development, continuous integration, and mentorship."
 		},
 		{
-			"name": "Web / App Design",
-			"description": "When architecting a large or small project, I include each of these to the the scope of work, so a true modern website/app is built.",
+			"name": "Manage Dev Teams",
+			"description": "Asking the right questions, thorough documentation, and keeping stakeholders involved are just as important as any line of code for a successful launch.",
 			"tags": [
-				"Responsive Web Design",
-				"Accessibility",
-				"Performance",
-				"Web APIs",
-				"Web Components",
-				"Progressive Web App"
+				"Daily Scrums",
+				"One-on-One Meetings",
+				"Peer Programming",
+				"Code Reviews",
+				"Mentor",
+				"Listen"
 			]
 		},
 		{
@@ -29,22 +29,22 @@
 			]
 		},
 		{
-			"name": "Lead Dev Teams",
-			"description": "Asking the right questions, thorough documentation, and keeping stakeholders involved are just as important as any line of code for a successful launch.",
+			"name": "Web / App Design",
+			"description": "When architecting a large or small project, I include each of these to the the scope of work, so a true modern website/app is built.",
 			"tags": [
-				"Daily Scrums",
-				"One-on-One Meetings",
-				"Peer Programming",
-				"Code Reviews",
-				"Mentor",
-				"Listen"
+				"Responsive Web Design",
+				"Accessibility",
+				"Performance",
+				"Web APIs",
+				"Web Components",
+				"Progressive Web App"
 			]
 		}
 	],
 	"featuredWorkTitle": "Featured Works",
-	"featuredWorkDescription": "I'm a Lead Software Developer focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship. I love anything with HTML, CSS, JavaScript, or BBQ Sauce in it. Here's a couple tasty treats I made.",
+	"featuredWorkDescription": "I'm a Engineering Manager focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship. I love anything with HTML, CSS, JavaScript, or BBQ Sauce in it. Here's a couple tasty treats I made.",
 	"browseFullPortfolio": "Browse full portfolio",
-	"footerCreditLine1": "©2011-2023 Conor Meagher.",
+	"footerCreditLine1": "©2011-2024 Conor Meagher.",
 	"footerCreditLine2": "This site was designed in ",
 	"builtTools": {
 		"11ty": "https://www.11ty.dev/",

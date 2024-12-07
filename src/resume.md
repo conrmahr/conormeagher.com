@@ -1,9 +1,9 @@
 ---
 layout: single.njk
 metaTitle: Conor Meagher's Resume
-metaDescription: I'm a Lead Software Developer focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship.
+metaDescription: I'm a Engineering Manager focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship.
 title: Conor Meagher's Resume
-description: I'm a Lead Software Developer focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship.
+description: I'm a Engineering Manager focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship.
 featuredImg:
 templateEngineOverride: njk,md
 eleventyNavigation:
@@ -15,7 +15,7 @@ eleventyNavigation:
 
 ### Resume
 
-[{% figure 'Conor_Meagher_Resume', 'Resume', 'Resume' %}](https://res.cloudinary.com/conrmahr/image/upload/v1686947407/conr.dev/Conor_Meagher_Resume.pdf)
+[{% figure 'Conor_Meagher_Resume', 'Resume', 'Resume' %}](https://flowcv.com/resume/e52vseihge)
 
 </div>
 
