@@ -1,15 +1,21 @@
 {% if '/posts' not in page.url %}
-<div class="relative max-w-screen-md mx-auto py-32 md:py-32 md:leading-tight text-center font-bold tracking-tighter text-3xl md:text-5xl px-10">
-  <span class="block">⚡</span>
-  I am <span class="text-green-700">open</span> for opportunities. <br>If you would like to have a conversation, please get in touch.
+<div class="relative max-w-screen-md mx-auto md:leading-tight text-center font-bold tracking-tighter text-3xl md:text-5xl py-8 px-10">
+  <span class="block">💼</span>
+  <a
+    href="{{ metadata.socials.linkedin }}"
+    title="get in touch"
+    target="_blank"
+    rel="noreferrer"
+  >
+  I am <span class="text-green-700">open</span> for opportunities. <br>If you would like to have a conversation, please get in touch.</a>
   <div>
     <a
-      href="{{ metadata.author.mailtolink }}"
+      href="{{ metadata.socials.linkedin }}"
       title="get in touch"
       target="_blank"
       rel="noreferrer"
       class="text-gray-600 text-xl tracking-tight py-4 dark:text-yellow-200 dark:hover:text-yellow-400 transition-colors hover:text-purple-800"
-    >via Email
+    >via LinkedIn
     </a>
   </div>
 </div>

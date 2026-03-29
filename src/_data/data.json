@@ -2,18 +2,18 @@
 	"experience": [
 		{
 			"name": "Experience",
-			"description": "14+ YOE in Software Development with skills involving fullstack/frontend development, continuous integration, and mentorship."
+			"description": "15+ YOE in Software Engineering — from full-stack development to team leadership and engineering management."
 		},
 		{
 			"name": "Manage Dev Teams",
-			"description": "Asking the right questions, thorough documentation, and keeping stakeholders involved are just as important as any line of code for a successful launch.",
+			"description": "Redesigning processes, removing roadblocks, and keeping stakeholders aligned are just as important as any line of code for a successful launch.",
 			"tags": [
-				"Daily Scrums",
+				"SDLC Process Design",
+				"Stakeholder Management",
 				"One-on-One Meetings",
-				"Peer Programming",
 				"Code Reviews",
-				"Mentor",
-				"Listen"
+				"Hiring & Mentoring",
+				"Cross-Functional Collaboration"
 			]
 		},
 		{
@@ -21,11 +21,11 @@
 			"description": "Depending on the use case, I use a wide range of tools to handle a simple static site generator or a robust CMS for users to publish content.",
 			"tags": [
 				"Node.js",
-				"Netlify",
-				"React",
-				"Eleventy",
+				"React / Next.js",
+				"Vue.js",
+				"TypeScript",
 				"WordPress",
-				"Ruby on Rails"
+				"AWS"
 			]
 		},
 		{
@@ -42,9 +42,9 @@
 		}
 	],
 	"featuredWorkTitle": "Featured Works",
-	"featuredWorkDescription": "I'm a Engineering Manager focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship. I love anything with HTML, CSS, JavaScript, or BBQ Sauce in it. Here's a couple tasty treats I made.",
+	"featuredWorkDescription": "I'm an Engineering Manager with 15+ years in software engineering — including hands-on full-stack development, team leadership, and now engineering management. I love anything with HTML, CSS, JavaScript, or BBQ Sauce in it. Here's a couple tasty treats I made.",
 	"browseFullPortfolio": "Browse full portfolio",
-	"footerCreditLine1": "©2011-2024 Conor Meagher.",
+	"footerCreditLine1": "©2011-2026 Conor Meagher.",
 	"footerCreditLine2": "This site was designed in ",
 	"builtTools": {
 		"11ty": "https://www.11ty.dev/",

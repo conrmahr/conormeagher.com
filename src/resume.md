@@ -1,14 +1,14 @@
 ---
 layout: single.njk
 metaTitle: Conor Meagher's Resume
-metaDescription: I'm a Engineering Manager focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship.
+metaDescription: I'm an Engineering Manager focusing on Full-Stack Development, SDLC Process Design, CI/CD Strategy, and Team Mentorship.
 title: Conor Meagher's Resume
-description: I'm a Engineering Manager focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship.
+description: I'm an Engineering Manager focusing on Full-Stack Development, SDLC Process Design, CI/CD Strategy, and Team Mentorship.
 featuredImg:
 templateEngineOverride: njk,md
 eleventyNavigation:
   key: resume.
-  order: 3
+  order: 4
 ---
 
 <div class="col-start-1 col-end-6">

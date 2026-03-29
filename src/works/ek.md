@@ -1,19 +1,19 @@
 ---
-metaTitle: Healthe Foundations
+metaTitle: Ekterly (sebetralstat)
 metaDescription: null
-title: Healthe Foundations
+title: Ekterly (sebetralstat)
 description: null
 testimonial: null
-clientName: Yao Quan
+clientName: null
 clientPos: null
-projectUrl: https://www.healthefoundations.org
+projectUrl: https://www.ekterly.com
 dribbble: null
-featuredImg: hf-featured
-bgColor: EFC770
+featuredImg: ekterly-featured
+bgColor: DAF1FF
 featured: true
-tasks: Web Design & Development
-year: 2017
-date: 2017-08-01
+tasks: Engineering Management & Development
+year: 2025
+date: 2025-07-03
 ---
 
 <div class="col-start-3 col-end-6">

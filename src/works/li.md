@@ -1,20 +1,20 @@
 ---
-metaTitle: Cerner Foundation
+metaTitle: Lifyorli (relacorilant)
 metaDescription: null
-title: Cerner Foundation
+title: Lifyorli (relacorilant)
 description: null
 testimonial: null
 clientName: null
 clientPos: null
-projectUrl: https://www.cernercharitablefoundation.org
+projectUrl: https://www.lifyorli.com
 dribbble: null
-featuredImg: ccf-featured
-bgColor: D5E7F3
+featuredImg: lifyorli-featured
+bgColor: B9B6D7
 featured: true
 span: true
-tasks: Web Design & Development
-year: 2021
-date: 2021-03-10
+tasks: Engineering Management & Development
+year: 2026
+date: 2026-03-26
 ---
 
 <div class="col-start-3 col-end-9">

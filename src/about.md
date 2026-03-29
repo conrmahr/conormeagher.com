@@ -3,7 +3,7 @@ layout: single.njk
 metaTitle: About Conor
 metaDescription: It's pronounced Con-r Mah-r.
 title: It's pronounced Con-r Mah-r, thanks for asking!
-description: I'm a Engineering Manager focusing on Fullstack Development, Frontend Development, Continuous Integration, and Mentorship.
+description: I'm an Engineering Manager focusing on Full-Stack Development, SDLC Process Design, CI/CD Strategy, and Team Mentorship.
 featuredImg:
 templateEngineOverride: njk,md
 eleventyNavigation:
@@ -25,7 +25,7 @@ After two years I completed the program with a Masters in Urban Studies but fell
 
 ### Now
 
-Currently, I manage two overseas development teams at a digital marketing agency, delivering websites for multi-million dollar pharmaceutical companies using Next.js, Vue.js, and WordPress. I work remotely from the Central Time Zone. At home, I enjoy life with my wonderful wife, sweet daughter, and stubborn Boston Terrier.. 🐕‍🦺
+Currently, I manage two overseas development teams at a health communications agency, delivering web platforms for multi-million-dollar pharmaceutical clients using Next.js, Vue.js, and WordPress. I redesigned our agile/SDLC processes from ideation through delivery and own our CI/CD strategy across all active projects using AWS-automated pipelines. I work remotely from the Central Time Zone. At home, I enjoy life with my wonderful wife, sweet daughter, and stubborn Boston Terrier. 🐕‍🦺
 
 Drop me a line on [LinkedIn](https://linkedin.com/in/conrmahr 'visit site') or **mail@hireconor.com**, if you would like to have a conversation about a possible match. 🎯
 
