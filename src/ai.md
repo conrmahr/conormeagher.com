@@ -16,5 +16,5 @@ Everything on this website is written by me, poorly, but not by AI.
 
 I do think that LLMs and AI are valuable tools for filling in the gaps. I have used tools like Claude, Copilot, ChatGPT to help me write code or plan the steps to build an office desk, but this website is all me. I like me.
 
-For more information on why I created this page, check out [The /ai manifesto](https://www.bydamo.la/p/ai-manifesto, 'AI Manifesto')!
+For more information on why I created this page, check out [The /ai manifesto](https://www.bydamo.la/p/ai-manifesto 'AI Manifesto')!
 </div>
