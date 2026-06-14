@@ -1,15 +1,15 @@
-const { DateTime } = require('luxon')
-const fs = require('fs')
-const pluginNavigation = require('@11ty/eleventy-navigation')
-const markdownIt = require('markdown-it')
-const mila = require('markdown-it-link-attributes')
-const markdownItAnchor = require('markdown-it-anchor')
-const markdownItFootnote = require('markdown-it-footnote')
-const pluginRss = require('@11ty/eleventy-plugin-rss')
-const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
-const embedEverything = require("eleventy-plugin-embed-everything")
+import { DateTime } from 'luxon'
+import fs from 'node:fs'
+import pluginNavigation from '@11ty/eleventy-navigation'
+import markdownIt from 'markdown-it'
+import mila from 'markdown-it-link-attributes'
+import markdownItAnchor from 'markdown-it-anchor'
+import markdownItFootnote from 'markdown-it-footnote'
+import pluginRss from '@11ty/eleventy-plugin-rss'
+import pluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight'
+import embedEverything from 'eleventy-plugin-embed-everything'
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/css/styles.css')
 	eleventyConfig.addPassthroughCopy('./src/browserconfig.xml')
 	eleventyConfig.addPassthroughCopy('./src/site.webmanifest')

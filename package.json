@@ -17,10 +17,11 @@
   ],
   "author": "kailoon",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.3.2",
-    "@11ty/eleventy-plugin-rss": "^2.0.2",
+    "@11ty/eleventy-plugin-rss": "^3.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "autoprefixer": "^10.4.16",
     "markdown-it-anchor": "^9.2.0",
