@@ -45,12 +45,14 @@
       class="md:hidden text-base w-full px-5 flex justify-between items-center fixed bottom-0 bg-black md:relative">
       {% set navPages = collections.all | eleventyNavigation %}
         {%- for entry in navPages %}
+          {% if (loop.index) <= 3 %}
             <a
             href="{{ entry.url | url }}"
             class="text-gray-300 py-4 dark:text-purple-300
             {% if entry.url == page.url %} text-white dark:text-white {% endif %}
             "
             >{{ entry.title }}</a>
+          {%- endif %}
         {%- endfor %}
     </div>
   </div>

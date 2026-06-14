@@ -10,7 +10,7 @@
         {% set navPages = collections.all | eleventyNavigation %}
         <ul class="text-right">
           {%- for entry in navPages %}
-            {% if (loop.index) %}
+           {% if (loop.index) <= 2 %}
             <li class="inline-block mr-5">
               <a
               href="{{ entry.url | url }}"
@@ -19,16 +19,14 @@
               >{{ entry.title }}</a>
             </li>
           {%- endif %}
-        {%- endfor %}
-        {%- for entry in navPages %}
-          {% if (loop.last) %}
+          {% if (entry.key === 'resume.') %}
           <li class="inline-block">
             <a
             href="{{ entry.url | url }}"
             title="get in touch"
             target="_blank"
             rel="noreferrer"
-            class="text-gray-800 dark:text-yellow-300 py-2 px-5 rounded-full font-bold border-2 border-gray-900/20 dark:border-yellow-100/20 transition-colors hover:border-gray-900 dark:hover:border-yellow-100"
+            class="text-gray-800 dark:text-white py-2 px-5 rounded-full font-bold border-2 border-gray-900/20 dark:border-yellow-100/20 transition-colors hover:border-gray-900 dark:hover:text-yellow-200 dark:hover:border-yellow-100"
             ><span>{{ entry.title }}</span>
             </a>
           </li>
