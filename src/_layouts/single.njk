@@ -7,6 +7,7 @@ layout: base.njk
 {%- endblock singleTop-%}
 
 <section class="max-w-7xl mx-auto px-5">
+  {% if tasks or testimonial %}
   <div class="pt-16 post text-gray-800 dark:text-gray-200 md:grid md:gap-x-10 md:gap-y-5 md:grid-cols-10 md:items-start">
 
     {% if tasks %}
@@ -26,6 +27,7 @@ layout: base.njk
     </div>
     {% endif %}
   </div>
+  {% endif %}
   <article class="post text-lg tracking-tight text-gray-700 dark:text-gray-300 md:grid md:gap-x-10 md:gap-y-5 md:grid-cols-10 md:items-start">
     {{ content | safe }}
   </article>
