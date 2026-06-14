@@ -23,7 +23,7 @@
 
 <!-- footer start -->
 <footer id="footer" class="md:pt-6 md:pb-16 border-t border-gray-200 dark:border-gray-800">
-  <div class="text-center md:text-left max-w-screen-xl m-auto sm:flex sm:justify-between sm:items-center text-sm pb-16 md:pb-0">
+  <div class="text-center md:text-left max-w-7xl m-auto sm:flex sm:justify-between sm:items-center text-sm pb-16 md:pb-0">
     <p id="credit" class="p-5 text-gray-500 dark:text-gray-400">{{ data.footerCreditLine1 }} {{ data.footerCreditLine2 }}
       {% for item, url in data.builtTools %}
         {%- if loop.first %} {% elif loop.last %} &{% else %},{% endif %}
