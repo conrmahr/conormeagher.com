@@ -8,7 +8,7 @@ featuredImg:
 templateEngineOverride: njk,md
 eleventyNavigation:
   key: resume.
-  order: 4
+  order: 3
 ---
 
 <div class="col-start-1 col-end-6">

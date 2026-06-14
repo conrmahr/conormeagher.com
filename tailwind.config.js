@@ -1,7 +1,6 @@
-const colors = require('tailwindcss/colors')
-const plugin = require('tailwindcss/plugin')
+import colors from 'tailwindcss/colors.js'
 
-module.exports = {
+export default {
 	mode: 'jit',
 	content: [
 		'./src/**/*.njk',

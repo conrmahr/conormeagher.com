@@ -13,7 +13,7 @@ pagination:
   {%- include '../_components/_singletop.njk' -%}
 {%- endblock singleTop-%}
 
-<div class="px-5 py-10 clear-both max-w-screen-xl mx-auto md:grid md:grid-cols-12 md:gap-5 md:items-start">
+<div class="px-5 py-10 clear-both max-w-7xl mx-auto md:grid md:grid-cols-12 md:gap-5 md:items-start">
   {% block postslists %}
     {% set postslist = pagination.items %}
     {% include '../_components/_postslist.njk' %}
