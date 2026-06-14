@@ -84,12 +84,10 @@ export default function (eleventyConfig) {
 			}
 		})
 		.use(markdownItAnchor, {
-			permalink: true,
-			permalinkClass: 'direct-link text-gray-400 dark:text-gray-600',
-			permalinkSymbol: '#',
-			permalinkAttrs: (slug, state) => ({
-				'aria-label': `permalink to ${slug}`,
-				title: 'Anchor link for easy sharing.'
+			permalink: markdownItAnchor.permalink.ariaHidden({
+				class: 'direct-link text-gray-400 dark:text-gray-600',
+				symbol: '#',
+				placement: 'after'
 			})
 		})
 		.use(markdownItFootnote)
