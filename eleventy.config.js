@@ -13,7 +13,6 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/css/styles.css')
 	eleventyConfig.addPassthroughCopy('./src/browserconfig.xml')
 	eleventyConfig.addPassthroughCopy('./src/site.webmanifest')
-	eleventyConfig.addPassthroughCopy('./src/admin/config.yml')
 	eleventyConfig.addPassthroughCopy('./src/img')
 	eleventyConfig.addPassthroughCopy('./src/_redirects')
 
@@ -146,8 +145,8 @@ export default function (eleventyConfig) {
 			}
 		})
 
-		// returning an array in addCollection works in Eleventy 0.5.3
-		return [...tagSet]
+		// sort so the tag list order is stable between builds
+		return [...tagSet].sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' }))
 	})
 
 	return {

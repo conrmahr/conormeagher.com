@@ -14,7 +14,7 @@ published: true
 
 <div class="col-start-3 col-end-9">
 
-_This post is one of the series of posts in my [S.T.A.R. Answers Series](/posts/2011/02/star-responses/) in which I response to behavioral interview questions from my experiences._
+_This post is one of the series of posts in my [S.T.A.R. Answers Series](/posts/2011/01/star-responses/) in which I response to behavioral interview questions from my experiences._
 
 **Question:** Some problems require developing a unique approach. Tell about a time when you were able to develop a different problem-solving approach.
 

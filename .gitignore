@@ -18,3 +18,7 @@ _site/
 .DS_Store
 # Local Netlify folder
 .netlify
+
+# Claude Code
+CLAUDE.md
+.claude/

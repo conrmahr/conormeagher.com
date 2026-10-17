@@ -1,6 +1,6 @@
 {
   "name": "11ty-portfolio",
-  "version": "2.0.0",
+  "version": "3.1.0",
   "description": "Minimal Poftfolio / blog template built with eleventy & tailwindcss.",
   "scripts": {
     "serve": "ELEVENTY_ENV=dev npx eleventy --serve",
@@ -18,22 +18,23 @@
   "author": "kailoon",
   "license": "ISC",
   "type": "module",
+  "packageManager": "pnpm@12.11.2",
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.7",
     "@11ty/eleventy-navigation": "^1.0.5",
-    "@11ty/eleventy-plugin-rss": "^3.0.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@tailwindcss/cli": "^4.3.1",
-    "markdown-it-anchor": "^9.2.0",
-    "markdown-it-link-attributes": "^4.0.0",
-    "nunjucks": "^3.2.3",
-    "tailwindcss": "^4.3.1"
+    "@11ty/eleventy-plugin-rss": "^3.1.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "@tailwindcss/cli": "^4.3.3",
+    "markdown-it-anchor": "^10.0.0",
+    "markdown-it-link-attributes": "^4.0.1",
+    "nunjucks": "^3.2.4",
+    "tailwindcss": "^4.3.3"
   },
   "dependencies": {
-    "@11ty/eleventy-upgrade-help": "^3.0.1",
-    "eleventy-plugin-embed-everything": "^1.15.1",
-    "luxon": "^3.3.0",
-    "markdown-it": "^14.1.0",
+    "@11ty/eleventy-upgrade-help": "^3.0.2",
+    "eleventy-plugin-embed-everything": "^1.21.2",
+    "luxon": "^3.7.2",
+    "markdown-it": "^15.0.2",
     "markdown-it-footnote": "^4.0.0"
   }
 }
