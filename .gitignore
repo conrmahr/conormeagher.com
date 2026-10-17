@@ -21,3 +21,4 @@ _site/
 
 # Claude Code
 CLAUDE.md
+.claude/
